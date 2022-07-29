@@ -1,3 +1,4 @@
+using AutoMapper;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -36,6 +37,8 @@ namespace TiendaServicios.Api.Autor
                 options.UseNpgsql(Configuration.GetConnectionString("ConexionDatabase"));
             });
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
+            // Instancia mapeador DTO
+            services.AddAutoMapper(typeof(Consulta.Manejador));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using AutoMapper;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading;
@@ -10,21 +11,25 @@ namespace TiendaServicios.Api.Autor.Aplicacion
 {
     public class Consulta
     {
-        public class ListaAutor : IRequest<List<AutorLibro>>
+        public class ListaAutor : IRequest<List<AutorDTO>>
         {
 
         }
-        public class Manejador : IRequestHandler<ListaAutor, List<AutorLibro>>
+        public class Manejador : IRequestHandler<ListaAutor, List<AutorDTO>>
         {
             private readonly ContextoAutor _contexto;
-            public Manejador(ContextoAutor contexto)
+            // Instanciar mapeador
+            private readonly IMapper _mapper;
+            public Manejador(ContextoAutor contexto, IMapper mapper)
             {
                 _contexto = contexto;
+                _mapper = mapper;
             }
-            public async Task<List<AutorLibro>> Handle(ListaAutor request, CancellationToken cancellationToken)
+            public async Task<List<AutorDTO>> Handle(ListaAutor request, CancellationToken cancellationToken)
             {
                 var autores = await _contexto.AutorLibro.ToListAsync();
-                return autores;
+                var autoresDto = _mapper.Map<List<AutorLibro>, List<AutorDTO>>(autores);
+                return autoresDto;
             }
         }
     }

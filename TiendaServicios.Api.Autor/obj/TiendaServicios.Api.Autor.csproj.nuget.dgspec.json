@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bladimir\\source\\repos\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj": {}
+    "E:\\Escritorio\\GIT\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bladimir\\source\\repos\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj": {
+    "E:\\Escritorio\\GIT\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bladimir\\source\\repos\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj",
+        "projectUniqueName": "E:\\Escritorio\\GIT\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj",
         "projectName": "TiendaServicios.Api.Autor",
-        "projectPath": "C:\\Users\\Bladimir\\source\\repos\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj",
+        "projectPath": "E:\\Escritorio\\GIT\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj",
         "packagesPath": "C:\\Users\\Bladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bladimir\\source\\repos\\TiendaServicios\\TiendaServicios.Api.Autor\\obj\\",
+        "outputPath": "E:\\Escritorio\\GIT\\TiendaServicios\\TiendaServicios.Api.Autor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[8.6.2, )"
