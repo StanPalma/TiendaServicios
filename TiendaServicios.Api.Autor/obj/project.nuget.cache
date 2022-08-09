@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V6AQiKzsW9k70jGN5BhRGoXf7CsJs3LOg/nXwmzmCNPio7SN5IAyfnbo9qEY7XIKq4mla4knrZ9B9QvfAay85w==",
+  "dgSpecHash": "0V/VZjIOicIwDR9BeLQrX3kNPNxQGD8eY5uiLklPMJSLGJsj0cAFfTyUaBpLcorNWNXcJt4xHEi5ThEWJl0B4w==",
   "success": true,
   "projectFilePath": "E:\\Escritorio\\GIT\\TiendaServicios\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Bladimir\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.2\\microsoft.extensions.primitives.3.1.2.nupkg.sha512",
     "C:\\Users\\Bladimir\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Bladimir\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Bladimir\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\Bladimir\\.nuget\\packages\\npgsql\\4.1.3\\npgsql.4.1.3.nupkg.sha512",
     "C:\\Users\\Bladimir\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\3.1.2\\npgsql.entityframeworkcore.postgresql.3.1.2.nupkg.sha512",
     "C:\\Users\\Bladimir\\.nuget\\packages\\system.collections.immutable\\1.7.0\\system.collections.immutable.1.7.0.nupkg.sha512",
